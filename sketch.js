@@ -52,7 +52,7 @@ function draw() {
   }
    
   //Descomenta la opción correcta para obtener un número aleatorio entre 1 y 4 
-   // select_balloon = Math.round(random(1,4));
+   select_balloon = Math.round(random(1,4));
    // select_balloon = random(1,4);
    // select_balloon = Math.round(random());
    // select_balloon = Math.round(random(1,4,2));
@@ -70,17 +70,17 @@ function draw() {
             // }
 
 
-            // switch(select_balloon ){
-            // case 1: redBalloon();
-            // break;
-            // case 2:blueBalloon();
-            // break;
-            // case 3:pinkBalloon();
-            // break;
-            // case 4:greenBalloon();
-            // break;
-            // default:break;
-            // }
+      switch(select_balloon ){
+          case 1: redBalloon();
+            break;
+          case 2:blueBalloon();
+            break;
+          case 3:pinkBalloon();
+            break;
+          case 4:greenBalloon();
+            break;
+          default:break;
+            }
 
 
             // switch(select_balloon ){
